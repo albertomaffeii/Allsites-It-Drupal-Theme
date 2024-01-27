@@ -1,33 +1,33 @@
 # Allsites IT Theme for Drupal
 
-<img alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
-<img alt="Allsites IT Logo" src="https://www.allsites.com.br/libraries/images/logo.jpeg" height="60px">
+<img alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px"> <img alt="Allsites IT Logo" src="https://www.allsites.com.br/libraries/images/logo.jpeg" height="60px">
 
-O "Allsites IT Theme for Drupal" é um tema personalizado desenvolvido por Alberto Maffei para ser usado com o sistema de gerenciamento de conteúdo Drupal. Este tema foi projetado para oferecer uma experiência visual atraente e funcionalidades personalizadas, adaptáveis a uma variedade de projetos e necessidades.
+The "Allsites IT Theme for Drupal" is a custom theme developed by Alberto Maffei for use with the Drupal content management system. This theme is designed to provide an appealing visual experience and customized functionalities adaptable to a variety of projects and needs.
 
-## Recursos Principais
+## Key Features
 
-- **Design Atraente:** Layout moderno e atraente para destacar seu conteúdo.
-- **Personalização:** Possibilidade de personalização fácil para atender às necessidades do seu projeto.
-- **Compatibilidade:** Testado e compatível com as versões mais recentes do Drupal.
+- **Attractive Design:** Modern and appealing layout to showcase your content.
+- **Customization:** Easy customization to meet the needs of your project.
+- **Compatibility:** Tested and compatible with the latest Drupal versions.
 
-## Instalação
+## Installation
 
-1. Faça o download ou clone este repositório para o diretório de temas do seu projeto Drupal.
-2. Ative o tema no painel de administração do Drupal.
+1. Download or clone this repository to your Drupal project's theme directory.
+2. Activate the theme in the Drupal administration panel.
 
-## Contribuindo
+## Contributing
 
-Você é bem-vindo para contribuir para o desenvolvimento e aprimoramento deste tema. Siga as diretrizes de contribuição conforme descrito no arquivo CONTRIBUTING.md.
+You are welcome to contribute to the development and improvement of this theme. Follow the contribution guidelines as described in the CONTRIBUTING.md file.
 
-## Licença
+## License
 
-Este projeto é licenciado nos termos da Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+This project is licensed under the terms of the MIT License - see the [LICENSE.md](LICENSE.md) file for more details.
 
-## Contato
+## Contact
 
-Para dúvidas ou informações adicionais, entre em contato conosco em [albertomaffeii@gmail.com](mailto:albertomaffeii@gmail.com).
+For questions or additional information, please contact us at [albertomaffeii@gmail.com](mailto:albertomaffeii@gmail.com).
 
 ---
 
-**Desenvolvido por Allsites IT by Alberto Maffei** | [www.allsites.com.br](https://www.allsites.com.br)
+**Developed by Allsites IT by Alberto Maffei** | [www.allsites.com.br](https://www.allsites.com.br)
+
