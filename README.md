@@ -1,5 +1,8 @@
 # Allsites IT Theme for Drupal
 
+<img alt="Drupal Logo" src="https://www.drupal.org/files/Wordmark_blue_RGB.png" height="60px">
+<img alt="Allsites IT Logo" src="https://www.allsites.com.br/libraries/images/logo.jpeg" height="60px">
+
 O "Allsites IT Theme for Drupal" é um tema personalizado desenvolvido por Alberto Maffei para ser usado com o sistema de gerenciamento de conteúdo Drupal. Este tema foi projetado para oferecer uma experiência visual atraente e funcionalidades personalizadas, adaptáveis a uma variedade de projetos e necessidades.
 
 ## Recursos Principais
@@ -23,8 +26,8 @@ Este projeto é licenciado nos termos da Licença MIT - veja o arquivo [LICENSE.
 
 ## Contato
 
-Para dúvidas ou informações adicionais, entre em contato conosco em [seu-email@allsites.com](mailto:seu-email@allsites.com).
+Para dúvidas ou informações adicionais, entre em contato conosco em [albertomaffeii@gmail.com](mailto:albertomaffeii@gmail.com).
 
 ---
 
-**Desenvolvido por Allsites IT** | [www.allsitesit.com](https://www.allsitesit.com)
+**Desenvolvido por Allsites IT by Alberto Maffei** | [www.allsites.com.br](https://www.allsites.com.br)
