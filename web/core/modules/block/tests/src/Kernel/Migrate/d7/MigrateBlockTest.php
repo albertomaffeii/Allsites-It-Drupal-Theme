@@ -113,35 +113,35 @@ class MigrateBlockTest extends MigrateDrupal7TestBase {
    * Tests the block migration.
    */
   public function testBlockMigration() {
-    $this->assertEntity('bartik_system_main', 'system_main_block', [], '', 'content', 'olivero', 0, '', '0');
-    $this->assertEntity('bartik_search_form', 'search_form_block', [], '', 'content', 'olivero', -1, '', '0');
-    $this->assertEntity('bartik_user_login', 'user_login_block', [], '', 'content', 'olivero', 0, 'User login title', 'visible');
-    $this->assertEntity('bartik_system_powered_by', 'system_powered_by_block', [], '', 'footer_bottom', 'olivero', 10, '', '0');
+    $this->assertEntity('allsites_system_main', 'system_main_block', [], '', 'content', 'olivero', 0, '', '0');
+    $this->assertEntity('allsites_search_form', 'search_form_block', [], '', 'content', 'olivero', -1, '', '0');
+    $this->assertEntity('allsites_user_login', 'user_login_block', [], '', 'content', 'olivero', 0, 'User login title', 'visible');
+    $this->assertEntity('allsites_system_powered_by', 'system_powered_by_block', [], '', 'footer_bottom', 'olivero', 10, '', '0');
     $this->assertEntity('seven_system_main', 'system_main_block', [], '', 'content', 'claro', 0, '', '0');
     $this->assertEntity('seven_user_login', 'user_login_block', [], '', 'content', 'claro', 10, 'User login title', 'visible');
 
     // The d7_custom_block migration should have migrated a block containing a
     // mildly amusing limerick. We'll need its UUID to determine
-    // bartik_block_1's plugin ID.
+    // allsites_block_1's plugin ID.
     $uuid = BlockContent::load(1)->uuid();
-    $this->assertEntity('bartik_block_1', 'block_content:' . $uuid, ['authenticated'], '', 'content', 'olivero', 0, 'Mildly amusing limerick of the day', 'visible');
+    $this->assertEntity('allsites_block_1', 'block_content:' . $uuid, ['authenticated'], '', 'content', 'olivero', 0, 'Mildly amusing limerick of the day', 'visible');
 
     // Assert that disabled blocks (or enabled blocks whose plugin IDs could
     // be resolved) did not migrate.
     $non_existent_blocks = [
-      'bartik_system_navigation',
-      'bartik_system_help',
+      'allsites_system_navigation',
+      'allsites_system_help',
       'seven_user_new',
       'seven_search_form',
-      'bartik_comment_recent',
-      'bartik_node_syndicate',
-      'bartik_node_recent',
-      'bartik_shortcut_shortcuts',
-      'bartik_system_management',
-      'bartik_system_user-menu',
-      'bartik_system_main-menu',
-      'bartik_user_new',
-      'bartik_user_online',
+      'allsites_comment_recent',
+      'allsites_node_syndicate',
+      'allsites_node_recent',
+      'allsites_shortcut_shortcuts',
+      'allsites_system_management',
+      'allsites_system_user-menu',
+      'allsites_system_main-menu',
+      'allsites_user_new',
+      'allsites_user_online',
       'seven_comment_recent',
       'seven_node_syndicate',
       'seven_shortcut_shortcuts',
@@ -151,18 +151,18 @@ class MigrateBlockTest extends MigrateDrupal7TestBase {
       'seven_system_user-menu',
       'seven_system_main-menu',
       'seven_user_online',
-      'bartik_blog_recent',
-      'bartik_book_navigation',
-      'bartik_locale_language',
-      'bartik_forum_active',
-      'bartik_forum_new',
+      'allsites_blog_recent',
+      'allsites_book_navigation',
+      'allsites_locale_language',
+      'allsites_forum_active',
+      'allsites_forum_new',
       'seven_blog_recent',
       'seven_book_navigation',
       'seven_locale_language',
       'seven_forum_active',
       'seven_forum_new',
-      'bartik_menu_menu-test-menu',
-      'bartik_statistics_popular',
+      'allsites_menu_menu-test-menu',
+      'allsites_statistics_popular',
       'seven_menu_menu-test-menu',
       'seven_statistics_popular',
       'seven_block_1',

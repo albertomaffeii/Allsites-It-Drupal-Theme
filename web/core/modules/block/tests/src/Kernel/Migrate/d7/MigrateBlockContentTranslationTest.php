@@ -65,7 +65,7 @@ class MigrateBlockContentTranslationTest extends MigrateDrupal7TestBase {
     /** @var \Drupal\language\ConfigurableLanguageManagerInterface $language_manager */
     $language_manager = $this->container->get('language_manager');
 
-    $config = $language_manager->getLanguageConfigOverride('fr', 'block.block.bartik_user_login');
+    $config = $language_manager->getLanguageConfigOverride('fr', 'block.block.allsites_user_login');
     $this->assertSame('fr - User login title', $config->get('settings.label'));
   }
 

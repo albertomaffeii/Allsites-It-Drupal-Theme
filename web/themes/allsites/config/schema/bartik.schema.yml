@@ -1,0 +1,5 @@
+# Schema for the configuration files of the allsites theme.
+
+allsites.settings:
+  type: theme_settings
+  label: 'allsites settings'

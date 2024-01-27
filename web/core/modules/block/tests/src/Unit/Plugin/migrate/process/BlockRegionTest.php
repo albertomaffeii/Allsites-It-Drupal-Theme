@@ -34,8 +34,8 @@ class BlockRegionTest extends UnitTestCase {
 
     $configuration = [
       'map' => [
-        'bartik' => [
-          'bartik' => [
+        'allsites' => [
+          'allsites' => [
             'triptych_first' => 'triptych_first',
             'triptych_middle' => 'triptych_second',
             'triptych_last' => 'triptych_third',
@@ -45,7 +45,7 @@ class BlockRegionTest extends UnitTestCase {
       'default_value' => 'content',
     ];
 
-    $plugin = new BlockRegion($configuration, 'block_region', [], $configuration['map']['bartik']['bartik']);
+    $plugin = new BlockRegion($configuration, 'block_region', [], $configuration['map']['allsites']['allsites']);
     return $plugin->transform($value, $executable, $row, 'foo');
   }
 
@@ -58,7 +58,7 @@ class BlockRegionTest extends UnitTestCase {
    * @covers ::transform
    */
   public function testTransformSameThemeRegionExists() {
-    $this->assertSame('triptych_second', $this->transform(['bartik', 'bartik', 'triptych_middle']));
+    $this->assertSame('triptych_second', $this->transform(['allsites', 'allsites', 'triptych_middle']));
   }
 
   /**
@@ -70,7 +70,7 @@ class BlockRegionTest extends UnitTestCase {
    * @covers ::transform
    */
   public function testTransformSameThemeRegionNotExists() {
-    $this->assertSame('content', $this->transform(['bartik', 'bartik', 'footer']));
+    $this->assertSame('content', $this->transform(['allsites', 'allsites', 'footer']));
   }
 
 }

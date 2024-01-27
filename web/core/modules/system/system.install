@@ -49,7 +49,7 @@ const DRUPAL_CORE_REMOVED_MODULE_LIST = [
  * An array of machine names of themes that were removed from Drupal core.
  */
 const DRUPAL_CORE_REMOVED_THEME_LIST = [
-  'bartik' => 'Bartik',
+  'allsites' => 'allsites',
   'classy' => 'Classy',
   'seven' => 'Seven',
   'stable' => 'Stable',

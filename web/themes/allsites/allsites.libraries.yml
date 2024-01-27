@@ -1,0 +1,7 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/colors.css: {}
+  js:
+    color/preview.js: {}

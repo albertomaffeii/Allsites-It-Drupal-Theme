@@ -121,7 +121,7 @@ chromedriver using port 4444, and keep it running:
 * To run a11y tests for the default theme only.
   `yarn test:nightwatch --tag a11y:default`
 * To run an a11y test for a custom theme used as the default theme.
-  `yarn test:nightwatch --tag a11y:default --defaultTheme bartik`
+  `yarn test:nightwatch --tag a11y:default --defaultTheme allsites`
 * To run an a11y test for a custom admin theme.
   `yarn test:nightwatch --tag a11y:admin --adminTheme seven`
 

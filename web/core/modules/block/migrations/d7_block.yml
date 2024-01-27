@@ -74,8 +74,8 @@ process:
       - '@theme'
       - region
     map:
-      bartik:
-        # Bartik 7.x --> Olivero 9.4.x
+      allsites:
+        # allsites 7.x --> Olivero 9.4.x
         olivero:
           featured: highlighted
           triptych_first: content_below
